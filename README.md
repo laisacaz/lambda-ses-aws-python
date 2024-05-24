@@ -39,7 +39,11 @@
     * O arquivo txt "requirements" já realiza a instalação, através do código que está dentro dele. 
 * #### Testando o código:
   - Para testar a lamba dentro da AWS:
-    - É preciso passar um JSON como parâmetro. Ex:
+    - Selecionar a lambda
+    - Apertar a flexa para baixo no botão "Testar" selecionando a opção "Configure test event"
+    - Dê um nome para seu evento de teste e dentro de "JSON do evento", deve ser passado os parâmetros
+      que serão utilizados no envio.
+    - Ex:
     {
     "to_address": "destinatario@gmail.com",
     "subject": "Assunto",
