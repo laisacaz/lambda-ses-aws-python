@@ -39,4 +39,10 @@
     * O arquivo txt "requirements" já realiza a instalação, através do código que está dentro dele. 
 * #### Testando o código:
   - Para testar a lamba dentro da AWS:
-  -    
+    - É preciso passar um JSON como parâmetro. Ex:
+    {
+    "to_address": "destinatario@gmail.com",
+    "subject": "Assunto",
+    "body": "Corpo",
+    "sender": "remetente@gmail.com"
+    }     
