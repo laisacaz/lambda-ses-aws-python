@@ -1,3 +1,8 @@
 ## Lambda para envio de emails através da AWS
-#
-## A lambda encontrada nesse repositório realiza envio de emails para o email que você desejar, porém é necessário que seja realizadas algumas configurações para isso.
+
+### A lambda encontrada nesse repositório realiza envio de emails para o email desejado, porém é necessário que sejam realizadas algumas configurações para isso.
+
+## Configurações
+
+* Realizar o seu cadastro na AWS
+* 
