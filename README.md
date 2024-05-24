@@ -28,7 +28,12 @@
     - Selecionar a opção "Permissões"
     - Clicar no link abaixo de "Nome da função"
     - Selecionar o botão "Adicionar permissões" e marcar a opção "Criar política em linha"
-    - 
+    - Procurar pelo serviço "SES"
+    - Clicar na opção "Gravação" e marcar as opções "SendRawEmail" e "SendEmail"
+    - Em recursos selecionar "Tudo"
+    - Dê um nome a permissão e apertar o botão de salvar
+* #### Vincular a permissão com a lambda:
+  -  
 * #### Dependências:
   - Para que a lambda funcione corretamente, precisa ter instalado o pacote "boto3":
     * O arquivo txt "requirements" já realiza a instalação, através do código que está dentro dele. 
