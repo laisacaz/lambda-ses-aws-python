@@ -32,8 +32,7 @@
     - Clicar na opção "Gravação" e marcar as opções "SendRawEmail" e "SendEmail"
     - Em recursos selecionar "Tudo"
     - Dê um nome a permissão e apertar o botão de salvar
-* #### Vincular a permissão com a lambda:
-  -  
+
 * #### Dependências:
   - Para que a lambda funcione corretamente, precisa ter instalado o pacote "boto3":
     * O arquivo txt "requirements" já realiza a instalação, através do código que está dentro dele. 
@@ -50,3 +49,8 @@
     "body": "Corpo",
     "sender": "remetente@gmail.com"
     }     
+* #### Explicando a Lambda:
+  - O código realiza a importação do pacote boto3 
+  - No início do código é capturado para dentro das variáveis os valores passados para o JSON de teste
+  - Logo abaixo as variáveis são utilizadas como parâmetros para envio do email
+  - O email é enviado através do client importado no pacote boto3
